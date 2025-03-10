@@ -18,13 +18,7 @@ const Navbar = () => {
                     />
                 </Link>
                 <ul className="md:flex flex-row justify-between gap-8 hidden">
-                    {navLinks.map((link) => (
-                        <li key={link.title}>
-                            <Link href={link.href}>
-                                {link.title}
-                            </Link>
-                        </li>
-                    ))}
+
                 </ul>
 
                 <div className="flex flex-row justify-end space-x-2">
