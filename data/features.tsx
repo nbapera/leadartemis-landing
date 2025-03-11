@@ -9,7 +9,7 @@ export const features = [
     },
     {
         title: "Unlimited Amount of New Leads",
-        description: "Our service is highly customizable. You can choose the color scheme, and other options that best suit your needs.",
+        description: "Generate an unlimited number of new leads with a fully customizable experience. Filter the needed options to find your perfect client.",
         icon: <Pencil2Icon className="w-6 h-6"/>,
     },
     {
