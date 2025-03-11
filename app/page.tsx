@@ -19,7 +19,7 @@ export default function Home() {
                                 className="flex flex-row items-center justify-center gap-5 p-1 text-xs bg-card/60 backdrop-blur-lg rounded-md border border-border">
                                 <Badge className="font-semibold">New</Badge>
                                 <h5>First 100 new users get pro plan for a week.</h5>
-                                <Link href="https://leadartemis.com/pages/register/register3" className="flex flex-row items-center">
+                                <Link href="https://app.leadartemis.com//pages/register/register3" className="flex flex-row items-center">
                                     Register an account
                                     <ArrowRightIcon className="w-6 h-6 ml-2"/>
                                 </Link>
@@ -32,7 +32,7 @@ export default function Home() {
                             LeadArtemis is a powerful tool designed to help businesses find B2B clients with ease. It simplifies lead generation by providing accurate and up-to-date business contacts. You can use it to discover potential clients in any industry and location. Start boosting sales and saving time today with LeadArtemis!
                         </p>
                         <div className="flex flex-row justify-center items-center space-x-4 my-8">
-                            <Link href="https://leadartemis.com">
+                            <Link href="https://app.leadartemis.com/">
                                 <Button>
                                     Get Started
                                 </Button>
@@ -153,7 +153,7 @@ export default function Home() {
                             <h5 className="text-2xl font-bold">{plan.price}</h5>
                         </CardHeader>
                         <CardContent>
-                        <Link href="https://leadartemis.com">
+                        <Link href="https://app.leadartemis.com/">
                             <Button className="w-full" variant={plan.fancy ? "default" : "secondary"}>
                                     Get Started
                             </Button>
