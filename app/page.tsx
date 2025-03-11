@@ -39,7 +39,7 @@ export default function Home() {
                             </Link>
                             <Button variant="secondary">
                                 <Link href="#whyus">
-                                    Learn More
+                                    Why Us
                                 </Link>
                             </Button>
                         </div>
@@ -57,19 +57,19 @@ export default function Home() {
                     </div>
 
                     <div className="max-w-4xl mx-auto mb-8">
-                        <Image
+                        <video
                             className="w-full"
-                            src="/dashboard-ui1.png"
-                            alt="Dashboard ui design"
-                            priority
-                            width={1200}
-                            height={800}
+                            src="/video.mp4"
+                            muted
+                            autoPlay
+                            controls
                             style={{
                                 borderRadius: '10px',
                                 boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08)', // Custom drop shadow
                             }}
                         />
                     </div>
+
 
                 </main>
             </div>

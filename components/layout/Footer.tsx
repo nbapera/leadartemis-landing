@@ -11,7 +11,7 @@ const Footer = () => {
                     Discover, connect, find clients with LeadArtemis!
                     </p>
                     <div className="items-center gap-x-3 space-y-3 sm:flex sm:justify-center sm:space-y-0">
-                        <Link href="https://leadartemis.com/pages/register/register3">
+                        <Link href="https://app.leadartemis.com/pages/register/register3">
                             <Button>
                                 Create an Account
                             </Button>

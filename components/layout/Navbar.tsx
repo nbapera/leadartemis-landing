@@ -23,7 +23,7 @@ const Navbar = () => {
 
                 <div className="flex flex-row justify-end space-x-2">
                     <ThemeChanger />
-                    <Link href="https://leadartemis.com">
+                    <Link href="https://app.leadartemis.com">
                         <Button>
                             Get Started
                         </Button>
