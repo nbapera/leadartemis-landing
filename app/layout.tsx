@@ -5,6 +5,7 @@ import React from "react";
 import Navbar from "@/components/layout/Navbar";
 import {ThemeProvider} from "@/app/theme-provider";
 import Footer from "@/components/layout/Footer";
+import { GoogleAnalytics } from '@next/third-parties/google'
 const font = Mulish({subsets: ["latin"]});
 
 export const metadata: Metadata = {
@@ -25,6 +26,7 @@ export default function RootLayout({children}: Readonly<{ children: React.ReactN
             <Footer/>
         </ThemeProvider>
         </body>
+        <GoogleAnalytics gaId="G-RHWXM6BN2D" />
         </html>
     );
 }
