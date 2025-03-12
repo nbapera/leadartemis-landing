@@ -26,7 +26,7 @@ export default function RootLayout({children}: Readonly<{ children: React.ReactN
             <Footer/>
         </ThemeProvider>
         </body>
-        <GoogleAnalytics gaId="G-RHWXM6BN2D" />
+        <GoogleAnalytics gaId="G-EBGQ60F7RQ" />
         </html>
     );
 }
